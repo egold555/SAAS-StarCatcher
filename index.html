@@ -1,0 +1,49 @@
+﻿<!-- StarCatcher Game for David's Soft Dev class 201-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StarCatcher - Software Development</title>
+<!--    our link to the javascript file that will control the game actions -->
+
+
+<link rel="stylesheet" type="text/css" href="scStyles.css">
+     <script type="text/javascript" src="background.js"></script> 
+    <script type="text/javascript" src="scScripts.js">
+    </script>
+
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+
+
+</head>
+<body onLoad="plzwork1();">
+    <h2 class="centerText", id="title"><span id="title"></span>==TITLE==</h2> <!--Zamboni Paratroopers-->
+    
+    
+
+    <h2 id="leftSide">Player 2: <span id="p2ScoreDisp">0</span></h2>
+    <h2 id="rightSide">Player 1: <span id="p1ScoreDisp">0</span></h2>
+    <div id="game">
+        <canvas id="myCanvasB" style="z-index: 1;
+position:absolute;
+left:560px;
+top:102px;
+width:800px;
+height:500px;"></canvas>
+        <canvas id="myCanvas" style="z-index: 2;
+position:absolute;
+left:560px;
+top:102px;
+width:800px;
+height:500px;"></canvas>
+    </div>
+
+    <div id="nearbottom"> 
+        <h2 id="bottom">Level: <span id="levelCounter">1</span></h2>
+    <h2 id="bottom">FPS: <span id="fpsCounter">0</span></h2>
+    <h2 id="bottom">Stars Collected: <span id="starsCollected">-</span>/<span id="starsTotal">-</span></h2>
+    </div>
+
+</body>
+</html>

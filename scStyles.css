@@ -1,0 +1,61 @@
+html, body {margin: 5px;}
+        canvas {display: block;}
+        #game {
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        body{
+            background:#00B3B3; 
+            margin:0;
+            padding:0;
+            overflow:hidden;
+        }
+        .centerText {
+            text-align: center;
+            color: #FF0000; /*C7E8E4*/
+            font-size: 48px;
+            } 
+
+        #leftSide {
+            float:left;
+            width: 100px;
+            margin-left:40px;
+            background-color: rgba(199,232,228,.9);
+            box-shadow: 10px 10px 10px #3D78A4;   
+        }
+        #rightSide {
+            float: right;
+            width: 100px;
+            margin-right:40px;
+            background-color: rgba(199,232,228,.9);
+            box-shadow: 10px 10px 10px #3D78A4;  
+        }
+
+        #bottom {
+
+        }
+
+        #nearbottom{
+            width: 245px; 
+            height: 300px; 
+            margin-left: 20px; 
+            float: right;
+            color: rgb(239,234,213);
+            background-color: rgba(61,120,164,.9);
+            box-shadow: 10px 10px 10px #C7E8E4; 
+
+        }
+
+         @font-face { font-family: zone; src: url('Sango.otf'); } 
+
+         /*h2 { font-family: zone, sans-serif; } */
+
+         h2 { font-family: Comic Sans MS, sans-serif; } 
+
+         p1 {
+            font-family: zone, sans-serif;
+         }
